@@ -190,10 +190,7 @@ function App() {
       time: times[5].nome
     },
   ]
-
   const [colaboradores, setColaboradores] = useState(inicial)
-
-
   return (
     <div>
       <Banner />
@@ -206,6 +203,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
-
